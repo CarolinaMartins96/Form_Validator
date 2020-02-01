@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  background-image: url(https://webgradients.com/public/webgradients_png/031%20Blessing.png);
+}
+
+.container {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+form {
+  padding: 13px 45px;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  color: #dbdbdb;
+  margin-top: 5px;
+}
+
+.form-control label {
+  color: #777;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  padding: 10px;
+  color: black;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.btn-primary {
+  display: block;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  width: 100%;
+  border-radius: 5px;
+  margin: 20px 0px 20px;
+  padding: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.invalid,
+.invalid-email,
+.invalid-password,
+.invalid-passwordLenght,
+.invalid-password2 {
+  display: none;
+  color: red;
+  font-size: 12px;
+  margin-top: 3px;
+}
